@@ -16,7 +16,7 @@ namespace survivorapi2.Models
 
 
         // Members of the tribe
-        public Player[] players { get; set; }
+        public ICollection<Player> players { get; set; }
 
     }
 }
